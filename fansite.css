@@ -1,4 +1,34 @@
-#welcome{
-  font-size: 48px;
-  color: rgb(88, 196, 234);
+body { background-color: antiquewhite;
+  display: flex;
+  align-content:center;
+  flex-direction: column;
+  }
+  
+
+h1 {color: gainsboro ;
+ font-family: Impact, Charcoal, sans-serif;
+ width: 400px;
+  height: 50px;
+  border: 1px transparent;
+}
+.paragraph {
+  display:flex;
+  justify-content: center;
+}
+.neuralink1 {
+  background-image: radial-gradient(white,grey);
+  color: white;
+  padding: 15px 15px;
+  text-align:center;
+  text-decoration: none;
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  display:flex;
+  align-items: center
+  }
+
+.img { 
+margin: auto;
+  width: 50%;
 }
